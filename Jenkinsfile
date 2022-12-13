@@ -27,7 +27,7 @@ pipeline {
       openshift.newBuild("--name=imagebuild", "--docker-image=registry.redhat.io/redhat-openjdk-18/openjdk18-openshift", "--binary") 
     } 
     
-    openshift.selector("bc", "imagebuild").startBuild("--from-file=target/first-project-SNAPSHOT.war", "--follow") } }
+    openshift.selector("bc", "imagebuild").startBuild("--from-file=target/first-project-SNAPSHOT.jar", "--follow") } }
 
         }
       }
