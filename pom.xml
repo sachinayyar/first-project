@@ -5,7 +5,7 @@
   <groupId>org.codelikethewind</groupId>
   <artifactId>first-project</artifactId>
   <version>SNAPSHOT</version>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
 
   <name>simple-servlet</name>
   <url>http://maven.apache.org</url>
