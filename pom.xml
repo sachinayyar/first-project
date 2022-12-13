@@ -3,8 +3,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.codelikethewind</groupId>
-  <artifactId>webapp2</artifactId>
-  <version>sumit</version>
+  <artifactId>first-project</artifactId>
+  <version>SNAPSHOT</version>
   <packaging>war</packaging>
 
   <name>simple-servlet</name>
